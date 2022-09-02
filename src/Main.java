@@ -17,7 +17,6 @@ public class Main {
         hufflepuffs[1] = sedrikDiggory;
         hufflepuffs[2] = JustinFinchFletchli;
 
-
         Ravenclaw[] ravenclaws = new Ravenclaw[3];
         Ravenclaw chzouChang = new Ravenclaw("Чжоу", "Чанг", 80, 80, 70, 90, 80);
         Ravenclaw padmaPatil = new Ravenclaw("Падма", "Патил", 70, 50, 80, 60, 70);
@@ -33,7 +32,6 @@ public class Main {
         slytherins[0] = drakoMafoy;
         slytherins[1] = grahamMontego;
         slytherins[2] = gregoryGoil;
-
 
         PrintService.print(griffindors);
         PrintService.print(hufflepuffs);

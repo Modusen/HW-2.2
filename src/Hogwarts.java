@@ -1,14 +1,15 @@
-public class Hogwarts extends Student{
+public class Hogwarts extends Student {
     private int powerOfMagic;
     private int distanceOfTransgression;
 
     public Hogwarts(String name, String surname, int powerOfMagic, int distanceOfTransgression) {
-        super(name,surname);
+        super(name, surname);
         this.powerOfMagic = powerOfMagic;
         this.distanceOfTransgression = distanceOfTransgression;
     }
+
     public int getPowerOfMagic() {
-       return powerOfMagic;
+        return powerOfMagic;
     }
 
     public int getDistanceOfTransgression() {

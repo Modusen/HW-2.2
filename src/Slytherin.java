@@ -1,4 +1,4 @@
-public class Slytherin extends Hogwarts{
+public class Slytherin extends Hogwarts {
     private int cunning;
     private int resoluteness;
     private int ambition;
@@ -62,6 +62,7 @@ public class Slytherin extends Hogwarts{
     public void setResourcefulness(int resourcefulness) {
         this.resourcefulness = resourcefulness;
     }
+
     public void setPowerLust(int powerLust) {
         this.powerLust = powerLust;
     }

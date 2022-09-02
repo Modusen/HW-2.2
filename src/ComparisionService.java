@@ -53,7 +53,6 @@ public class ComparisionService {
                     + firstStudent.getName() + " " + firstStudent.getSurname());
         }
         System.out.println("Ученики " + secondStudent.getName() + " " + secondStudent.getSurname() + " и " + firstStudent.getName() + " " + firstStudent.getSurname() + " равны по очкам Хогвартса");
-
     }
 
 }

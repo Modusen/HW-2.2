@@ -1,4 +1,4 @@
-public class Hufflepuff extends Hogwarts{
+public class Hufflepuff extends Hogwarts {
     private int hardWork;
     private int honesty;
     private int loyalty;
@@ -17,9 +17,10 @@ public class Hufflepuff extends Hogwarts{
                 "Трудолюбие=" + hardWork +
                 ", Честность=" + honesty +
                 ", Верность=" + loyalty +
-                ", Сила магии=" +getPowerOfMagic() +
+                ", Сила магии=" + getPowerOfMagic() +
                 ", Дальность трансгрессии=" + getDistanceOfTransgression();
     }
+
     public int getHardWork() {
         return hardWork;
     }

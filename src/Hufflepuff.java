@@ -10,6 +10,18 @@ public class Hufflepuff extends Hogwarts {
         this.loyalty = loyalty;
     }
 
+    public static void compareHufflepuffStudents(Hufflepuff firstStudent, Hufflepuff secondStudent) {
+        int average = firstStudent.hardWork + firstStudent.honesty + firstStudent.loyalty;
+        if (average < secondStudent.hardWork + secondStudent.honesty + secondStudent.loyalty) {
+            System.out.println(secondStudent.getName() + " " + secondStudent.getSurname() + " имеет больше очков факультета, чем " +
+                    firstStudent.getName() + " " + firstStudent.getSurname());
+        } else {
+            System.out.println(firstStudent.getName() + " " + firstStudent.getSurname() + " имеет больше очков факультета, чем " +
+                    secondStudent.getName() + " " + secondStudent.getSurname());
+        }
+    }
+
+
     @Override
     public String toString() {
         return "Студент: " + getName() + " " +

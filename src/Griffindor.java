@@ -9,6 +9,18 @@ public class Griffindor extends Hogwarts {
         this.honour = honour;
         this.courage = courage;
     }
+    public static void compareGriffindorStutents(Griffindor firstStudent, Griffindor secondStudent) {
+        int average = firstStudent.courage + firstStudent.honour + firstStudent.nobility;
+        if (average < secondStudent.courage + secondStudent.nobility + secondStudent.honour) {
+            System.out.println(secondStudent.getName() + " " + secondStudent.getSurname() + " имеет больше очков факультета, чем " +
+                    firstStudent.getName() + " " + firstStudent.getSurname());
+        } else {
+            System.out.println(firstStudent.getName() + " " + firstStudent.getSurname() + " имеет больше очков факультета, чем " +
+                    secondStudent.getName() + " " + secondStudent.getSurname());
+        }
+    }
+
+
 
     @Override
     public String toString() {

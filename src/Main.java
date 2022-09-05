@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         Griffindor[] griffindors = new Griffindor[3];
         Griffindor harryPotter = new Griffindor("Гарри", "Поттер", 100, 80, 100, 100, 100);
-        Griffindor hermionaGranger = new Griffindor("Гермиона", "Грейнджер", 90, 1000, 90, 100, 80);
-        Griffindor ronWhisley = new Griffindor("Рон", "Уизли", 80, 600, 80, 60, 70);
+        Griffindor hermionaGranger = new Griffindor("Гермиона", "Грейнджер", 90, 100, 90, 100, 80);
+        Griffindor ronWhisley = new Griffindor("Рон", "Уизли", 80, 60, 80, 60, 70);
         griffindors[0] = harryPotter;
         griffindors[1] = hermionaGranger;
         griffindors[2] = ronWhisley;
@@ -37,10 +37,10 @@ public class Main {
         PrintService.print(hufflepuffs);
         PrintService.print(ravenclaws);
         PrintService.print(slytherins);
-        ComparisionService.compareGriffindorStutents(ronWhisley, hermionaGranger);
-        ComparisionService.compareHufflepuffStudents(zaharyaSmith, sedrikDiggory);
-        ComparisionService.compareRavenclawStudents(padmaPatil, markusBelbi);
-        ComparisionService.compareSlytherinStudents(drakoMafoy, grahamMontego);
-        ComparisionService.compareHogwartsStudents(drakoMafoy, harryPotter);
+        Griffindor.compareGriffindorStutents(ronWhisley, hermionaGranger);
+        Hufflepuff.compareHufflepuffStudents(zaharyaSmith, sedrikDiggory);
+        Ravenclaw.compareRavenclawStudents(padmaPatil, markusBelbi);
+        Slytherin.compareSlytherinStudents(drakoMafoy, grahamMontego);
+        Hogwarts.compareHogwartsStudents(drakoMafoy, harryPotter);
     }
 }

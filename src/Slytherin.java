@@ -14,6 +14,17 @@ public class Slytherin extends Hogwarts {
         this.powerLust = powerLust;
     }
 
+    public static void compareSlytherinStudents(Slytherin firstStudent, Slytherin secondStudent) {
+        int average = firstStudent.ambition + firstStudent.cunning + firstStudent.getPowerLust() + firstStudent.resourcefulness + firstStudent.resourcefulness;
+        if (average < secondStudent.ambition + secondStudent.cunning + secondStudent.getPowerLust() + secondStudent.resourcefulness + secondStudent.resourcefulness) {
+            System.out.println(secondStudent.getName() + " " + secondStudent.getSurname() + " имеет больше очков факультета, чем " +
+                    firstStudent.getName() + " " + firstStudent.getSurname());
+        } else {
+            System.out.println(firstStudent.getName() + " " + firstStudent.getSurname() + " имеет больше очков факультета, чем " +
+                    secondStudent.getName() + " " + secondStudent.getSurname());
+        }
+    }
+
     @Override
     public String toString() {
         return "Студент: " + getName() + " " +

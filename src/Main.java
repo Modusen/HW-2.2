@@ -41,6 +41,6 @@ public class Main {
         Hufflepuff.compareHufflepuffStudents(zaharyaSmith, sedrikDiggory);
         Ravenclaw.compareRavenclawStudents(padmaPatil, markusBelbi);
         Slytherin.compareSlytherinStudents(drakoMafoy, grahamMontego);
-        Hogwarts.compareHogwartsStudents(drakoMafoy, harryPotter);
+        harryPotter.compareHogwartsStudents(drakoMafoy);
     }
 }
